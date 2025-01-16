@@ -7,7 +7,7 @@ import {
 } from "@remix-run/react";
 
 import "./tailwind.css";
-import styles from "~/styles/main.css";
+import styles from "./../styles/main.css";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
